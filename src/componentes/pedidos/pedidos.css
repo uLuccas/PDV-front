@@ -1,0 +1,84 @@
+.arruma {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  /* background-image: url(https://www.gutico.com.br/assets/img/slider/slide-1.jpg); */
+  
+}
+.produto {
+  width: 150px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.conteudoPed {
+  width: 80%;
+  height: 510px;
+  
+}
+
+.notasPag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: lightgray;
+  width: 210px;
+  height: 630px;
+
+}
+.cedulas {
+  display: flex;
+  width: 170px;
+  place-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contador {
+  width: 60px;
+}
+
+.pagamento{
+  width: auto;
+  height: 510px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow:  2px 1px 2px  #000000b9;
+  background-color: rgba(213, 242, 255, 0);
+  overflow-y: scroll;
+
+}
+
+.pagamento::-webkit-scrollbar {
+  width: 0;
+}
+
+.cardItem{
+  width: 200px;
+  min-height: 220px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow:  2px 1px 2px  #000000b9;
+  background-color: rgba(213, 242, 255, 0);
+}

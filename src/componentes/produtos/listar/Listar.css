@@ -1,0 +1,54 @@
+.conteudoProd {
+  min-width: 200px;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 1px 2px #000000b9;
+  background-color: rgba(213, 242, 255, 0);
+}
+
+.btnListar {
+  margin: 5px 5px 0px 5px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: rgb(61, 158, 236);
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-size: 15px;
+  height: 35px;
+  width: 145px;
+  border-color: aqua;
+}
+.btnListarCinza {
+  margin: 5px 5px 0px 5px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: rgb(180, 180, 180);
+  color: black;
+  font-style: italic;
+  font-size: 15px;
+  height: 35px;
+  width: 125px;
+  border-color: aqua;
+}
+
+.btnListar:hover {
+    transition: .5s;
+    background-color:whitesmoke;
+    color:black 
+}
+.btnListarCinza:hover {
+    transition: .5s;
+    background-color:rgb(61, 158, 236);
+    color: whitesmoke
+}
+
+.mapProdutos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

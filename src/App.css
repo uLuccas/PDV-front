@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.tela {
+  height: 100%;
+  /* opacity: 1; */
+}
+
+.bg{
+  /* background-image: url(https://www.des1gnon.com/wp-content/uploads/2017/11/Des1gn-ON-Quando-e-Como-usar-Contraste-de-Cor-cover-01.png); */
+  /* opacity: .5; */
+  
+}

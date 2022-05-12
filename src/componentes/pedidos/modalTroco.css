@@ -1,0 +1,90 @@
+.react-modal-content {
+  width: 100%;
+  max-width: 576px;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/002/743/509/original/abstract-panoramic-background-dark-blue-gradient-vector.jpg);
+  padding: 1.5rem;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid aqua;
+}
+
+.react-modal-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  /* opacity: 0;
+    transition: all 250ms ease-in-out; */
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgba(245, 245, 245, 0.301);
+}
+
+.ntModal {
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
+  margin: 5px;
+  height: 40px;
+  width: 100%;
+  justify-items: flex-start;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.btnModal {
+  margin: 5px 5px 0px 5px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: rgb(61, 158, 236);
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-size: 15px;
+  height: 35px;
+  width: 105px;
+  border-color: aqua;
+  /* background-image: url(https://agrobatto.com.br/wp-content/uploads/2021/02/moeda-dinheiro-recuperacao-de-impostos-brasil.png); */
+}
+.btnModalCinza {
+  margin: 5px 5px 0px 5px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: rgb(180, 180, 180);
+  color: black;
+  font-size: 15px;
+  height: 30px;
+  width: 30px;
+  border-color: aqua;
+}
+
+.btnModal:hover {
+  transition: 0.5s;
+  background-color: whitesmoke;
+  color: black;
+}
+.btnModalCinza:hover {
+  transition: 0.5s;
+  background-color: rgb(61, 158, 236);
+  color: whitesmoke;
+}
+
+.modal {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.imgModal {
+  width: 45px;
+  height: 30px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.cedula {
+  display: flex;
+  align-items: center;
+}
